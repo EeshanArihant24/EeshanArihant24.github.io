@@ -974,10 +974,10 @@
 
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-  // Download resume placeholder
+  // Download resume
   function downloadResume(e) {
     e.preventDefault();
-    alert('Add your resume PDF here! Replace this function with:\nwindow.open("./Eeshan_Arihant_Resume.pdf")');
+    window.open('./Eeshan_Arihant_Resume.pdf', '_blank');
   }
 </script>
 </body>
